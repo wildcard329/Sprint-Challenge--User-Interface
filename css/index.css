@@ -266,7 +266,7 @@ nav a {
 
 header nav {
     display: flex;
-    width: 60%;
+    width: 100%;
     justify-content: center;
     align-items: baseline;
 }
@@ -275,8 +275,8 @@ header nav {
     display: flex;
     flex-basis: auto;
     justify-content: space-evenly;
-    width: 80%;
-    margin-left: 9%;
+    width: 100%;
+    margin-right: 7%;
 }
 
 .logo img {
@@ -286,4 +286,49 @@ header nav {
 .jumbo img {
     display: flex;
     justify-content: center;
+}
+
+#sectionOne {
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    border-bottom: 1px solid black;
+}
+
+#sectionOne p {
+    margin-bottom: 3%;
+}
+
+.aboutBox {
+    margin-bottom: 3%;
+    border-bottom: 1px solid black;
+}
+
+.aboutBox button {
+    margin: 3% 0;
+    padding: 2% 5%;
+    background-color: white;
+}
+
+.aboutBox img {
+    margin: 3% 0;
+}
+#sectionTwo .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#sectionThree {
+    display: flex;
+    justify-content: center;
+    margin-left: 2%;
+    margin-bottom: 4%;
+    margin-top: 4%;
+}
+
+.aboutBox {
+    width: 40%
 }
