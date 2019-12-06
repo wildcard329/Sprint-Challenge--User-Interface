@@ -104,7 +104,115 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.one {
+    background: teal;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.two {
+    background: gold;width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.three {
+    background: cadetblue;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.four {
+    background: coral;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.five {
+    background: crimson;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.six {
+    background: forestgreen;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seven {
+    background: darkorchid;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eight {
+    background: hotpink;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nine {
+    background: indigo;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ten {
+    background: dodgerblue;
+    width: 12.5%;
+    height: 100px;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +251,88 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header {
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 5%;
+}
+
+header nav {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.links {
+    display: flex;
+    flex-basis: auto;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-right: 7%;
+}
+
+.logo img {
+    width: 20%;
+}
+
+.jumbo img {
+    display: flex;
+    justify-content: center;
+}
+
+#sectionOne {
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    border-bottom: 1px solid black;
+}
+
+#sectionOne {
+    
+}
+
+#sectionOne p {
+    margin-bottom: 3%;
+}
+
+.aboutBox {
+    margin-bottom: 3%;
+    border-bottom: 1px solid black;
+}
+
+.aboutBox button {
+    margin: 3% 0;
+    padding: 2% 5%;
+    background-color: white;
+}
+
+.aboutBox img {
+    margin: 3% 0;
+}
+#sectionTwo .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#sectionThree {
+    display: flex;
+    justify-content: center;
+    margin-left: 2%;
+    margin-bottom: 4%;
+    margin-top: 4%;
+}
+
+.aboutBox {
+    width: 40%
 }
